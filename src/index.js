@@ -269,5 +269,5 @@ client.distube
     .on("disconnect", queue => queue.textChannel.send("disconnected <:mike:841848837030150154>"))
 
 
-client.login(config.token)
+client.login(process.env.TOKEN)
 
